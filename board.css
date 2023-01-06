@@ -1,0 +1,72 @@
+    body {
+        margin: 0;
+        background-color: gray;
+        min-width: 960px;
+    }
+    .board {
+        width: fit-content;
+        background: darkgray;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .row {
+        /* margin: 10px; */
+        font-size: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 30;
+    }
+    .row_identifier {
+        float: left;
+        padding: 10px;
+        height: 80px;
+        text-align: center;
+    }
+    #boardpiece {
+        background-color: gray;
+        /* outline: none; */
+        border-width: thin;
+        border-radius: 0px;
+        border-color: black;
+        font-size: 60px;
+        height:100px;
+        width:100px;
+    }
+    #boardpiece > div {
+        size: 20px;
+    }
+    #boardpiece:hover {
+        color: white;
+        background: black;
+    }
+
+
+@media screen and (max-width: 600px) {
+    .board {
+        width: 100%;
+        margin-top: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .row {
+        font-size: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .row_identifier {
+        height: fit-content;
+        padding: 0;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    #boardpiece > div {
+        size: 20px;
+    }
+    #boardpiece {
+        font-size: 20px;
+        height: 30px;
+        width: 30px;
+    }
+}
