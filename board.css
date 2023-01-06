@@ -32,9 +32,6 @@
         height:100px;
         width:100px;
     }
-    #boardpiece > div {
-        size: 20px;
-    }
     #boardpiece:hover {
         color: white;
         background: black;
@@ -60,9 +57,6 @@
         padding-bottom: 9px;
         padding-left: 5px;
         padding-right: 5px;
-    }
-    #boardpiece > div {
-        size: 20px;
     }
     #boardpiece {
         font-size: 20px;
