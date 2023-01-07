@@ -1,0 +1,63 @@
+body {
+    background-color: gray;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 30px 560px;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "row_identifier board"
+    "corner column_identifier";
+    background-color: #3A3A3A;
+    width: fit-content;
+    border-radius: 10px;
+    color: white;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-family: consolas;
+}
+
+.row_identifier {
+    grid-area: row_identifier;
+}
+.corner {
+    grid-area: corner;
+    text-align: center;
+}
+.column_identifier {
+    white-space: nowrap;
+    grid-area: column_identifier;
+}
+.rid {
+    height: 70px;
+    text-align: center;
+    /* text-align: center; */
+}
+.rid > div {
+    padding-top: 25px;
+}
+.cid {
+    float: left;
+    height: 30px;
+    width: 70px;
+    text-align: center;
+}
+
+#boardpiece {
+    width: 70px;
+    height: 70px;
+    font-size: 50px;
+    border-width: 0px;
+}
+#boardpiece:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+.checker1 {
+    background-color:yellowgreen;
+}
+.checker2 {
+    background-color: wheat;
+}

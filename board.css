@@ -10,7 +10,9 @@
         width: fit-content;
         background: gray;
         padding-top: 10px;
-        padding-bottom: 40px;
+        /* padding-bottom: 40px; */
+        /* float: left; */
+        height: fit-content;
     }
     .row {
         /* margin: 10px; */
@@ -22,7 +24,6 @@
     .row_identifier {
         float: left;
         padding: 10px;
-        height: 80px;
         text-align: center;
         font-family: "consolas";
     }
@@ -56,13 +57,12 @@
         float: left;
     }
 
-
 @media screen and (max-width: 600px) {
     .board {
-        width: 100%;
+        width: fit-content;
         margin-top: 30px;
         padding-top: 5px;
-        padding-bottom: 5px;
+        padding-bottom: 15px;
     }
     .row {
         font-size: 10px;
@@ -80,6 +80,9 @@
     #boardpiece {
         font-size: 20px;
         height: 30px;
+        width: 30px;
+    }
+    .footer {
         width: 30px;
     }
 }

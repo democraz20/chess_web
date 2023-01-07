@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background-color: gray;
+}
+.board {
+    float: left;
+    background-color: #3A3A3A;
+    width: fit-content;
+    height: fit-content;
+}
+.row {
+    white-space: nowrap;
+}
+#piece {
+    font-size: 50px;
+    border-radius: 0px;
+    /* display: inline-block; */
+    width: 100px;
+    height: 100px;
+    border: 0px;
+}
+#piece:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+/* identifiers */
+.rowidentifier {
+    left: 0px;
+    height: 100px;
+    width: 30px;
+}
+.footer {
+    /* height: 30px; */
+    height: fit-content;
+}
+.piecefooter {
+    width: 100px;
+}
+
+.identifier {
+    background-color: #3A3A3A;
+    border: 0px;
+    color: white;
+}
+
+.logger {
+    float: left;
+}
+
+/* fontsize */
+.rowidentifier, .footer, .piecefooter, .identifier {
+    font-size: 20px;
+}
+
+
+@media (min-width: 500) {
+    body {
+        background-color: red;
+    }
+}
