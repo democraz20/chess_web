@@ -1,0 +1,26 @@
+.sidebar {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 50px 300px;
+}
+.loggercontainer {
+    border-radius: 10px;
+    background-color:#3A3A3A;
+    overflow: hidden;
+    overflow-y: scroll; 
+    height: 300px;
+    width: auto;
+    scrollbar-color: yellowgreen rgb(39,39,39);
+    scrollbar-width: thick  ;
+}
+.loggercontainer::-webkit-scrollbar {
+    border-radius: 10px;
+    background-color: rgb(39, 39, 39);
+}
+.loggercontainer::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: yellowgreen;
+}
+.loggedcontainer {
+    margin-left: 10px;
+}

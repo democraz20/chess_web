@@ -2,7 +2,7 @@ body {
     background-color: gray;
 }
 
-.container {
+.boardcontainer {
     display: grid;
     grid-template-columns: 30px 560px;
     grid-template-rows: auto auto;
@@ -22,6 +22,7 @@ body {
     grid-area: row_identifier;
 }
 .corner {
+    color:#3A3A3A;
     grid-area: corner;
     text-align: center;
 }
